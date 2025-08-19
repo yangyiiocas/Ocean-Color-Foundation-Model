@@ -2,7 +2,7 @@ close all;clear,clc
 window_t = 30;
 
 
-path="../é‡‡æ ·dataset/";
+path="../²ÉÑùdataset/";
 files = dir(path+"/*[pp]_(oppwgnew).txt");
 
 lats= [];   lons = [];  dates = [];
@@ -60,7 +60,7 @@ parfor k = 1:m
     fprintf("[%06d/%06d]\n",k,m);
 end
 toc
-save("../é¥æ„Ÿsat_matchups/sate.mat",'sate','dates','lat','lon');
+save("../Ò£¸Ğsat_matchups/sate.mat",'sate','dates','lat','lon');
 
 % run obs_matchup.m
 
