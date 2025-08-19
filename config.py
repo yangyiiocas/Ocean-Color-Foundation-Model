@@ -40,11 +40,12 @@ Generate = dict(rpath='/mnt/Aqua-MODIS/',
                 app=['secchi_depth','pp'],
                 # app=['secchi_depth','npp','pp','tchl_a','fuco','spm','kd490','z_01','a443'],
                 # app=['chlor_a','pic','poc','a_443','bb_443','Kd_490','Ratio-547_443'],
-                ckpt2='saved_model-split [m3].pth',
+                ckpt2='saved_model-split [m2].pth',
                 ckpt3='saved_model-split [m3].pth',
                 batch_num=100,
                 save_rpath='/mnt/OC_generated/',
                 bt='2020-01-01',
                 et='2020-01-30',
                 device='cuda:0')
+
 
