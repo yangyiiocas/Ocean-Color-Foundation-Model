@@ -15,7 +15,7 @@ Phase1 = dict(save_rpath="/mnt/oc_data/",
               save_model_path='saved_model-split [m1].pth')
 
 Phase2 = dict(inner_path='./_P2temp/',
-              cv_num=4,
+              cv_num=5,
               epochs=(100, 500, 200),
               sub_max=3000,
               lr=(0.001, 0.0002, 0.0001),
@@ -47,5 +47,6 @@ Generate = dict(rpath='/mnt/Aqua-MODIS/',
                 bt='2020-01-01',
                 et='2020-01-30',
                 device='cuda:0')
+
 
 
